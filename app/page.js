@@ -1,13 +1,19 @@
 import React from "react";
-import Footer from "./Footer";
+import Header from "./pagelayout/Header";
+import MainContent from "./pagelayout/MainContent";
+import Footer from "./pagelayout/Footer";
+import "./PageDesign.css";
 
-export default function HomePage() {
+const HomePage = () => {
   return (
-    <div
-      style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
-    >
-      <main style={{ flexGrow: 1 }}>{/* Your main content */}</main>
+    <div className="wrapper">
+      <div className="content-wrap">
+        <Header />
+        <MainContent />
+      </div>
       <Footer />
     </div>
   );
-}
+};
+
+export default HomePage;
