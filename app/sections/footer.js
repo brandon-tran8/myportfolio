@@ -13,8 +13,17 @@ const Footer = () => {
         <a rel="noreferrer" href={footer.linkedin} target="_blank">
           <i className="devicon-linkedin-plain"></i>
         </a>
-        <a rel="noreferrer" href={footer.github} target="_blank">
-          <i className="devicon-github-original"></i>
+        <a
+          rel="noreferrer"
+          href="https://github.com/brandon-tran8"
+          target="_blank"
+        >
+          <img
+            src="./images/gitlogo.png"
+            alt="GitHub"
+            className="social-icon"
+            style={{ width: "50px", height: "50px" }}
+          />
         </a>
       </div>
       <span className="text-sm text-center text-neutral-600">
@@ -25,3 +34,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+//<a href="https://github.com/brandon-tran8">Github</a>
