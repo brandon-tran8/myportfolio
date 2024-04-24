@@ -21,8 +21,8 @@
     "about": {
       "title": "About me",
       "image": "/images/me.jpg",
-      "primary": "This is where you can describe about yourself. The more you describe about yourself, the more chances you have!",
-      "secondary": "Extra Information about you! like hobbies and your goals."
+      "primary": "I'm currently in my second year at the Southern Alberta Institute of Technology (SAIT), pursuing my Software Development Diploma. Through my coursework, I've gained a solid understanding of the fundamental principles of various coding languages. I've had the opportunity to apply these skills by creating simple applications, laying the groundwork for future projects!",
+      "secondary": "Coding languages: Python, C#, HTML, CSS, React, JavaScript, and Node.js."
     },
     "projects": {
       "title": "Projects",
