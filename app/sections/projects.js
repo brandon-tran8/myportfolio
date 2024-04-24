@@ -17,10 +17,10 @@ const Projects = () => {
                 <h2 className="text-2xl">{item.title}</h2>
                 <p className="mt-6">{item.description}</p>
                 <div className="flex mt-4">
-                  <div className="text-md text-center font-semibold p-0.5 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
+                  <div className="text-md text-center font-semibold p-0.5 bg-gradient-to-r from-stone-500 via-rose-400 to-indigo-400">
                     <a href={item.url} target="_blank" rel="noreferrer">
                       <div className="bg-white">
-                        <span className="block py-0.5 px-2 bg-white bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
+                        <span className="block py-0.5 px-2 bg-white bg-gradient-to-r from-stone-600 via-rose-400 to-indigo-400 bg-clip-text text-transparent">
                           See Project
                         </span>
                       </div>
@@ -28,7 +28,7 @@ const Projects = () => {
                   </div>
                   <div className="bg-white ml-2 font-semibold">
                     <a href={item.github} target="_blank" rel="noreferrer">
-                      <span className="block py-1 px-2 bg-white bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent">
+                      <span className="block py-1 px-2 bg-white bg-gradient-to-r from-stone-500 via-rose-400 to-indigo-400 bg-clip-text text-transparent">
                         Source Code
                       </span>
                     </a>
