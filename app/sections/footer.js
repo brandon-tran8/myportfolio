@@ -19,7 +19,7 @@ const Footer = () => {
             src="./images/linkedinlogo.png"
             alt="Linkedin"
             className="social-icon"
-            style={{ width: "60px", height: "60px" }}
+            style={{ width: "57px", height: "57px" }}
           />
         </a>
         <a
@@ -31,7 +31,7 @@ const Footer = () => {
             src="./images/gitlogo.png"
             alt="GitHub"
             className="social-icon"
-            style={{ width: "60px", height: "60px" }}
+            style={{ width: "50px", height: "50px" }}
           />
         </a>
       </div>
