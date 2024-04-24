@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="h-screen bg-white overflow-x-hidden">
       <div className="px-8 lg:px-32 flex flex-col justify-center align-between">
         <h1 className="text-6xl mt-64 font-bold tracking-wide">
-          Hey, I'm
+          Hey my name is
           <span className="ml-3 whitespace-nowrap bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
             {hero.name}
           </span>
