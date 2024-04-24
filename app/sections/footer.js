@@ -6,12 +6,21 @@ const Footer = () => {
 
   return (
     <div className="footer px-8 py-16 flex justify-center align-center flex-col bg-neutral-800">
-      <div className="mx-auto text-3xl text-neutral-400 mb-8 space-x-10">
+      <div className="mx-auto text-3xl text-neutral-400 mb-8 space-x-10 flex">
         <a rel="noreferrer" href={footer.twitter} target="_blank">
           <i className="devicon-twitter-original"></i>
         </a>
-        <a rel="noreferrer" href={footer.linkedin} target="_blank">
-          <i className="devicon-linkedin-plain"></i>
+        <a
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/brandon-tran-a2b36b265/"
+          target="_blank"
+        >
+          <img
+            src="./images/linkedinlogo.png"
+            alt="Linkedin"
+            className="social-icon"
+            style={{ width: "60px", height: "60px" }}
+          />
         </a>
         <a
           rel="noreferrer"
@@ -22,7 +31,7 @@ const Footer = () => {
             src="./images/gitlogo.png"
             alt="GitHub"
             className="social-icon"
-            style={{ width: "50px", height: "50px" }}
+            style={{ width: "60px", height: "60px" }}
           />
         </a>
       </div>

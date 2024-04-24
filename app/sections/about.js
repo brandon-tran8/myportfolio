@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div
       id="About"
-      className="px-8 md:px-32 pb-32 content-center bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500"
+      className="px-8 md:px-32 pb-32 content-center bg-gradient-to-r from-stone-500 via-rose-400 to-indigo-400"
     >
       <h1 className="pt-12 uppercase font-bold text-center text-white text-bold text-4xl">
         {about.title}
@@ -16,7 +16,7 @@ const About = () => {
         <div className="w-1/2 flex justify-center content-center">
           <Image
             src={about.image}
-            alt="about"
+            alt="Profile picture"
             className="shadow-lg"
             width={300}
             height={300}
