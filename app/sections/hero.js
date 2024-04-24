@@ -10,7 +10,7 @@ const Hero = () => {
         <h1 className="text-6xl mt-64 font-bold tracking-wide">
           Hey my name is
           <span className="ml-3 whitespace-nowrap bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
-            {hero.name}
+            {hero.name.replace("'", "&apos;")}
           </span>
         </h1>
         <h1 className="text-6xl font-bold tracking-wide mt-4">
