@@ -34,5 +34,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-//<a href="https://github.com/brandon-tran8">Github</a>
